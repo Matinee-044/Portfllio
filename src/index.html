@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-pink-400 to-blue-400 min-h-screen">
+    <nav class="bg-white shadow-md py-4">
+        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-gray-800">Portfolio</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="text-gray-700 hover:text-purple-800">About</a></li>
+                <li><a href="#projects" class="text-gray-700 hover:text-purple-800">Projects</a></li>
+                <li><a href="#contact" class="text-gray-700 hover:text-purple-800">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="flex items-center justify-center mt-10">
+        <div class="max-w-4xl w-full mx-4 p-8 bg-white rounded-2xl shadow-2xl">
+            <div class="text-center">
+                <img src="me.jpg" alt="Profile Picture" class="w-32 h-32 mx-auto rounded-full border-4 border-blue-500 shadow-lg">
+                <h1 class="text-3xl font-extrabold mt-4 text-gray-800">Matinee Roynarin</h1>
+                <p class="text-gray-600 text-lg">Web Developer | Designer | Content Creator</p>
+                <div class="mt-4">
+                    <a href="#" class="bg-blue-500 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-blue-600 transition">Contact</a>
+                    <a href="#" class="bg-gray-200 px-6 py-2 rounded-lg shadow-lg hover:bg-gray-300 transition ml-2">Resume</a>
+                </div>
+            </div>
+            
+            <div id="about" class="mt-8">
+                <h2 class="text-2xl font-semibold text-gray-800">About Me</h2>
+                <p class="text-gray-700 mt-2 leading-relaxed">ฉันชื่อ นางสาวมาทินี โรยนรินทร์ ชื่อเล่น : น้ำตาล รหัสนักศึกษา 6640011044 ศึกษาอยู่ มหาวิทยาลัยสงขลานครินทร์ คณะวิทยาศาสตร์และเทคโนโลยีอุตสาหกรรม สาขาเทคโนโลยีสารสนเทศ </p>
+            </div>
+            
+            <div id="projects" class="mt-8">
+                <h2 class="text-2xl font-semibold text-gray-800">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:shadow-2xl transition">
+                        <h3 class="font-bold text-xl text-gray-800">Project 1</h3>
+                        <img src="p2.jpg" alt="">
+                        <p class="text-gray-600 mt-2">Pizza Menu</p>
+                        <a href="https://matinee-044.github.io/Matinee-044/exercise/box/box.html" class="text-blue-500 hover:underline">View Project</a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:shadow-2xl transition">
+                        <h3 class="font-bold text-xl text-gray-800">Project 2</h3>
+                        <img src="from.jpg" alt="">
+                        <p class="text-gray-600 mt-2">From</p>
+                        <a href="https://matinee-044.github.io/Matinee-044/exercise/from/from.html" class="text-blue-500 hover:underline">View Project</a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:shadow-2xl transition">
+                        <h3 class="font-bold text-xl text-gray-800">Project 3</h3>
+                        <img src="box_m.jpg" alt="">
+                        <p class="text-gray-600 mt-2">Box_model</p>
+                        <a href="https://matinee-044.github.io/Matinee-044/exercise/CSS/box_model.html" class="text-blue-500 hover:underline">View Project</a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:shadow-2xl transition">
+                        <h3 class="font-bold text-xl text-gray-800">Project 4</h3>
+                        <img src="page.jpg" alt="">
+                        <p class="text-gray-600 mt-2">Page Layout</p>
+                        <a href="https://matinee-044.github.io/Matinee-044/exercise/2_CSS/page_layout.html" class="text-blue-500 hover:underline">View Project</a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:shadow-2xl transition">
+                        <h3 class="font-bold text-xl text-gray-800">Project 5</h3>
+                        <p class="text-gray-600 mt-2">Description of old project 3.</p>
+                        <a href="#" class="text-blue-500 hover:underline">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div id="contact" class="mt-8">
+                <h2 class="text-2xl font-semibold text-gray-800">Contact</h2>
+                <p class="text-gray-700 mt-2">Email: 6640011044@psu.ac.th</p>
+                <p class="text-gray-700">Facebook : Matinee Roynarin</p>
+                <p class="text-gray-700">Tel : 093-578-2399</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
